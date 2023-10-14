@@ -1,0 +1,13 @@
+name: led_calibration
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - nomkl 
+  - pip
+  - pip:
+    - opencv-contrib-python
+    - matplotlib
+    - numpy
+    - scipy
